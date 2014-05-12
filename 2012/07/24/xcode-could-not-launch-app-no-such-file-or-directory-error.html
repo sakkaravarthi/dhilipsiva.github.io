@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Xcode - Could not launch app - No such file or directory Error | dhilipsiva</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="title" content="Xcode - Could not launch app - No such file or directory Error | dhilipsiva"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content="dhilipsiva"/>
+
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Xcode - Could not launch app - No such file or directory Error | dhilipsiva" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="http://dhilipsiva.com/2012/07/24/xcode-could-not-launch-app-no-such-file-or-directory-error.html" />
+        <meta property="fb:profile_id"   content="1627550002" />
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Xcode - Could not launch app - No such file or directory Error | dhilipsiva" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:creator" content="@dhilipsiva">
+        <meta name="twitter:url" content="http://dhilipsiva.com/2012/07/24/xcode-could-not-launch-app-no-such-file-or-directory-error.html" />
+        <meta name="twitter:site" content="@dhilipsiva" />
+        <meta name="twitter:domain" content="dhilipsiva.com" />
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://dhilipsiva.com/feed.xml">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="/assets/styles-8df6148d7a56b9a39cecb6ea2f69d314.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="/">
+                            dhilipsiva
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/profiles/">Profiles</a>
+                    </li>
+                    <li>
+                        <a href="/technologies/">Technologies</a>
+                    </li>
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/open-source/">Open Source</a>
+                    </li>
+                    <li>
+                        <a href="/experience/">Experience</a>
+                    </li>
+                    <li>
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li>
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/testimonials/">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="/hire-me/">Hire Me</a>
+                    </li>
+                    <li>
+                        <a href="/contact-me/">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="/credits/">Credits</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="page-content-wrapper">
+                <div class="content-header">
+                    <a id="menu-toggle" href="#" class="btn btn-success">
+                        <span class="glyphicon glyphicon-list"></span>
+                        Menu
+                    </a>
+                    <h1>Xcode - Could not launch app - No such file or directory Error</h1>
+                    <h3></h3>
+                </div>
+                <div class="page-content inset">
+                    <p class="meta">24 Jul 2012</p>
+<a class="btn btn-success pull-right" href="/blog">← back</a>
+
+<div class="post">
+    <p>I found this really annoying problem with Xcode and fixed it. When you run a project on Xcode, you sometimes end up with a message like this:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Could not launch app - No such file or directory
+</code></pre></div>
+<p>Thats really annoying. This error happens in a number of different situations. Sometime restarting the Xcode, fixes the problem. If not, follow these steps:</p>
+
+<ol>
+<li>Disconnect your device.</li>
+<li>Delete the app from your device.</li>
+<li>Quit xcode (Don&#39;t just simply close the window, quit it)</li>
+<li>Delete derived data folder (~/Library/Developer/Xcode/DerivedData/-gbrvhlvwmpiobxdujegtghggrffp - or something like that)</li>
+<li>Now start Xcode, connect device and run the project. It should work fine.</li>
+</ol>
+
+<p>Even theses steps are not helping me sometimes. I don&#39;t know what is causing this problem. When everything else fails, restarting both Mac and iOS device solved the issue in some situation. And what is weirder? Some times the app just runs fine the next day, without me changing anything.  I know I am not practicing an elegant solution, but this is the only working solution I found so far. If you have any Ideas, you can mail me. I ll update this post as necessary. BTW, this is the post with most hits on my blog. 20,000 and counting! :)</p>
+
+</div>
+<hr />
+<div class="clearfix"></div>
+<div class="row text-center">
+    <a href="#disqus_thread" >comments</a>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="//dhilipsiva.disqus.com/embed.js"></script>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" charset="utf-8">
+        document.getElementById("menu-toggle").addEventListener("click", function( event ) {
+            event.preventDefault();
+            document.getElementById("wrapper").classList.toggle("active");
+        }, false);
+    </script>
+    <script type="text/javascript" charset="utf-8">
+        !function(g,s,q,r,d){
+            r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};
+            d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+            d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+                insertBefore(d,q)
+        }(window,document,'script','_gs');
+        _gs('GSN-764389-Z');
+    </script>
+</html>

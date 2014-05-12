@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>style.js | dhilipsiva</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="title" content="style.js | dhilipsiva"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content="dhilipsiva"/>
+
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="style.js | dhilipsiva" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="http://dhilipsiva.com/2014/05/11/style-js.html" />
+        <meta property="fb:profile_id"   content="1627550002" />
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="style.js | dhilipsiva" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:creator" content="@dhilipsiva">
+        <meta name="twitter:url" content="http://dhilipsiva.com/2014/05/11/style-js.html" />
+        <meta name="twitter:site" content="@dhilipsiva" />
+        <meta name="twitter:domain" content="dhilipsiva.com" />
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://dhilipsiva.com/feed.xml">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="/assets/styles-8df6148d7a56b9a39cecb6ea2f69d314.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="/">
+                            dhilipsiva
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/profiles/">Profiles</a>
+                    </li>
+                    <li>
+                        <a href="/technologies/">Technologies</a>
+                    </li>
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/open-source/">Open Source</a>
+                    </li>
+                    <li>
+                        <a href="/experience/">Experience</a>
+                    </li>
+                    <li>
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li>
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/testimonials/">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="/hire-me/">Hire Me</a>
+                    </li>
+                    <li>
+                        <a href="/contact-me/">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="/credits/">Credits</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="page-content-wrapper">
+                <div class="content-header">
+                    <a id="menu-toggle" href="#" class="btn btn-success">
+                        <span class="glyphicon glyphicon-list"></span>
+                        Menu
+                    </a>
+                    <h1>style.js</h1>
+                    <h3></h3>
+                </div>
+                <div class="page-content inset">
+                    <p class="meta">11 May 2014</p>
+<a class="btn btn-success pull-right" href="/blog">← back</a>
+
+<div class="post">
+    <p>A layman&#39;s tool to style HTML Elements and share CSS values</p>
+
+<p>Demo URL: <a href="http://dhilipsiva.com/style.js/">http://dhilipsiva.com/style.js/</a></p>
+
+<p>GitHub URL: <a href="https://github.com/dhilipsiva/style.js">https://github.com/dhilipsiva/style.js</a></p>
+
+<p>Blog URL: <a href="http://dhilipsiva.com/2014/05/11/style-js.html">http://dhilipsiva.com/2014/05/11/style-js.html</a></p>
+
+<h3>Motive behind style.js</h3>
+
+<p>I often work with <code>Non-techie Entrepreneurs</code>. While they are virtually always happy about the functionality, a lot of time is being wasted on UI iterations. You know, like change color, size, background, alignment, position, etc. I had to make changes, test, commit, push, deploy, client-check and repeat until client is happy. I got sick of it and built this tool. Now, I ll just integrate and configure this stuff. The client can make changes according to the configuration and download (without server interaction) the changes as <code>json</code> file and mail it to me. No more back-and-forth circus.</p>
+
+<h3>Get Started</h3>
+
+<p>Avoid the back-and-forth circus with 3 Steps.</p>
+
+<ol>
+<li>Add and configure <code>style.js</code></li>
+<li>Ask your non-techie client / boss to make changes using the configured GUI.</li>
+<li>After they make change, ask them to download the JSON file and send it to you.</li>
+</ol>
+
+<h4>Add and configure <code>style.js</code></h4>
+
+<p>Have a look at <a href="https://github.com/dhilipsiva/style.js/blob/master/index.html">index.html</a> to see how to fix add and configure <code>style.js</code></p>
+
+<h4>Ask your non-techie client / boss to make changes using the configured GUI</h4>
+
+<p><img src="https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/make-changes.png" alt="Make Changes" title="Make Changes"></p>
+
+<h4>After they make change, ask them to download the JSON file and send it to you.</h4>
+
+<p><img src="https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/download.png" alt="Download" title="Download"></p>
+
+<p><img src="https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/json.png" alt="JSON" title="JSON"></p>
+
+<h3>Sample configuration</h3>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">config</span><span class="p">;</span>
+<span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;Demo Page&quot;</span><span class="p">,</span>
+    <span class="nx">toolbar</span><span class="o">:</span> <span class="s2">&quot;#style-js-toolbar&quot;</span><span class="p">,</span>
+    <span class="c1">// `items`: Collection of tweakable sets</span>
+    <span class="nx">items</span><span class="o">:</span> <span class="p">[{</span>
+        <span class="c1">// `name`: Human-Friendly name for this item</span>
+        <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;Demo Element&quot;</span><span class="p">,</span>
+        <span class="c1">// `selectors`: Selectors that these tweaks apply to.</span>
+        <span class="c1">// `selectors` any string that is accceptable by `querySelectorAll` javascript API</span>
+        <span class="nx">selectors</span><span class="o">:</span> <span class="s2">&quot;#style-js-demo&quot;</span><span class="p">,</span>
+        <span class="c1">// `properties`: collection of `css` properties</span>
+        <span class="nx">properties</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="c1">// `name`: name of the css properties. All CSS properties are supported.</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;background-color&quot;</span><span class="p">,</span>
+            <span class="c1">// `initial`: initial value for this property(optional)</span>
+            <span class="nx">initial</span><span class="o">:</span> <span class="s2">&quot;#0bee92&quot;</span><span class="p">,</span>
+            <span class="c1">// `type`: `type` attribute of the `&lt;input&gt;` tag</span>
+            <span class="c1">// `type`: can be any value that is supported by the `&lt;input&gt;`s `type` attribute</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s2">&quot;color&quot;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;font-size&quot;</span><span class="p">,</span>
+            <span class="nx">initial</span><span class="o">:</span> <span class="s2">&quot;12px&quot;</span><span class="p">,</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s2">&quot;text&quot;</span>
+        <span class="p">}]</span>
+    <span class="p">},{</span>
+        <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;Second line&quot;</span><span class="p">,</span>
+        <span class="nx">selectors</span><span class="o">:</span> <span class="s2">&quot;#style-js-demo-2&quot;</span><span class="p">,</span>
+        <span class="nx">properties</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;color&quot;</span><span class="p">,</span>
+            <span class="nx">initial</span><span class="o">:</span> <span class="s2">&quot;#FD4FFC&quot;</span><span class="p">,</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s2">&quot;color&quot;</span>
+        <span class="p">},{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s2">&quot;font-size&quot;</span><span class="p">,</span>
+            <span class="nx">initial</span><span class="o">:</span> <span class="s2">&quot;15px&quot;</span><span class="p">,</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s2">&quot;text&quot;</span>
+        <span class="p">}]</span>
+    <span class="p">}]</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3>Browser Support</h3>
+
+<p>Works well with chrome. I didn&#39;t test it with any other browsers, but I am guessing it should work OK. Chrome is all that matters. Because if the Client you are building the product for is not ready to use latest Chrome for testing, maybe you should not build a product for him. This is something that is to be used only during the development. So I believe Chrome is good Enough. Pull requests are always welcomed.</p>
+
+</div>
+<hr />
+<div class="clearfix"></div>
+<div class="row text-center">
+    <a href="#disqus_thread" >comments</a>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="//dhilipsiva.disqus.com/embed.js"></script>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" charset="utf-8">
+        document.getElementById("menu-toggle").addEventListener("click", function( event ) {
+            event.preventDefault();
+            document.getElementById("wrapper").classList.toggle("active");
+        }, false);
+    </script>
+    <script type="text/javascript" charset="utf-8">
+        !function(g,s,q,r,d){
+            r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};
+            d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+            d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+                insertBefore(d,q)
+        }(window,document,'script','_gs');
+        _gs('GSN-764389-Z');
+    </script>
+</html>

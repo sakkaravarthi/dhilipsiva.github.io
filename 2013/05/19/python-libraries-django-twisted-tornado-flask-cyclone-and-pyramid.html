@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid | dhilipsiva</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="title" content="Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid | dhilipsiva"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content="dhilipsiva"/>
+
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid | dhilipsiva" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="http://dhilipsiva.com/2013/05/19/python-libraries-django-twisted-tornado-flask-cyclone-and-pyramid.html" />
+        <meta property="fb:profile_id"   content="1627550002" />
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid | dhilipsiva" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:creator" content="@dhilipsiva">
+        <meta name="twitter:url" content="http://dhilipsiva.com/2013/05/19/python-libraries-django-twisted-tornado-flask-cyclone-and-pyramid.html" />
+        <meta name="twitter:site" content="@dhilipsiva" />
+        <meta name="twitter:domain" content="dhilipsiva.com" />
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://dhilipsiva.com/feed.xml">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="/assets/styles-8df6148d7a56b9a39cecb6ea2f69d314.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="/">
+                            dhilipsiva
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/profiles/">Profiles</a>
+                    </li>
+                    <li>
+                        <a href="/technologies/">Technologies</a>
+                    </li>
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/open-source/">Open Source</a>
+                    </li>
+                    <li>
+                        <a href="/experience/">Experience</a>
+                    </li>
+                    <li>
+                        <a href="/services/">Services</a>
+                    </li>
+                    <li>
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/testimonials/">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="/hire-me/">Hire Me</a>
+                    </li>
+                    <li>
+                        <a href="/contact-me/">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="/credits/">Credits</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="page-content-wrapper">
+                <div class="content-header">
+                    <a id="menu-toggle" href="#" class="btn btn-success">
+                        <span class="glyphicon glyphicon-list"></span>
+                        Menu
+                    </a>
+                    <h1>Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid</h1>
+                    <h3></h3>
+                </div>
+                <div class="page-content inset">
+                    <p class="meta">19 May 2013</p>
+<a class="btn btn-success pull-right" href="/blog">← back</a>
+
+<div class="post">
+    <p><em>&quot;<a href="https://www.djangoproject.com"><strong>Django</strong></a> is a high-level Python Web framework that encourages rapid development and clean, pragmatic design&quot;</em>. If you are building something that is similar to a e-commerce site, then you should probably go with <code>Django</code>. It will get your work done quick. You don&#39;t have to worry about too many technology choices. It provides everything thing you need from template engine to <code>ORM</code>. It will be slightly opinionated about the way you structure your app, which is good If you ask me. And it has the strongest community of all the other libraries, which means easy help is available.</p>
+
+<p><em>&quot;<a href="http://flask.pocoo.org/"><strong>Flask</strong></a> is a microframework for Python based on Werkzeug, Jinja 2 and good intentions&quot;</em>. Beware - &quot;microframework&quot; may be misleading. This does not mean that <code>Flask</code> is a half-baked library. This mean the core of <code>Flask</code> is very, very simple. Unlike <code>Django</code>, It will not make any Technology decisions for you. You are free to choose any template engine or <code>ORM</code> that pleases you. Even though it comes with <code>Jinja</code> template engine by default, you are always free to choose our own. As far as I know <code>Flask</code> comes in handy for writing APIs endpoints(<code>RESTful rervices</code>).</p>
+
+<p><em>&quot;<a href="https://twistedmatrix.com/trac/"><strong>Twisted</strong></a> is an event-driven networking engine written in python&quot;</em>. This is a high-performance engine. The main reason for its speed is something called as deferred. <code>Twisted</code> is built on top of <code>deferred</code>. For those of you who don&#39;t know about deferred, it is the mechanism through with asynchronous architecture is achieved. <code>Twisted</code> is very fast. But is not suitable for writing conventional WebApps. If you want to do something low-level networking stuff, <code>Twisted</code> is your friend.</p>
+
+<p><em>&quot;<a href="http://www.tornadoweb.org/en/stable/"><strong>Tornado</strong></a> is a Python web framework and asynchronous networking library, originally developed at <code>FriendFeed</code>. By using non-blocking network I/O, <code>Tornado</code> can scale to tens of thousands of open connections, making it ideal for long polling, <code>WebSockets</code>, and other applications that require a long-lived connection to each user&quot;</em>. <code>Tornado</code> stands some where between <code>Django</code> and <code>Flask</code>. If you want to write something with <code>Django</code> or <code>Flask</code>, but if you need a better performance, you can opt for <code>Tornado</code>. It can handle C10k problem very well if it is architected right.</p>
+
+<p><em>&quot;<a href="http://cyclone.io"><strong>Cyclone</strong></a> is a web server framework for Python that implements the <code>Tornado</code> API as a Twisted protocol&quot;</em>. Now, what if you want something with <code>Twisted</code>&#39;s performance and easy to write conventional webapps? Say hello to <code>Cyclone</code>. I would prefer <code>Cyclone</code> over <code>Tornado</code>. It has an API that is very similar to <code>Tornado</code>. As a matter of fact, this is a fork of <code>Tornado</code>. But the problem is it has relatively small community. Alexandre Fiori is the only main commiter to the repo.</p>
+
+<p><em>&quot;<a href="http://docs.pylonsproject.org/en/latest/docs/pyramid.html"><strong>Pyramid</strong></a> is a general, open source, Python web application development framework. Its primary goal is to make it easier for a Python developer to create web applications&quot;</em>. I haven&#39;t really used <code>Pyramid</code>, but I went through the documentation. From what I understand, <code>Pyramid</code> is very similar to <code>Flask</code> and I think you can use <code>Pyramid</code> wherever <code>Flask</code> seems appropriate and vice-versa.</p>
+
+<p>Want me to review any other library? Please leave a comment below.</p>
+
+<p>Comments / Suggestions / Edits welcomed.</p>
+
+<p>I answered a question on StackOverflow <a href="http://stackoverflow.com/questions/13941903/when-to-use-tornado-when-to-use-twisted-cyclone-gevent-other/16630916#16630916">here</a></p>
+
+</div>
+<hr />
+<div class="clearfix"></div>
+<div class="row text-center">
+    <a href="#disqus_thread" >comments</a>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="//dhilipsiva.disqus.com/embed.js"></script>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" charset="utf-8">
+        document.getElementById("menu-toggle").addEventListener("click", function( event ) {
+            event.preventDefault();
+            document.getElementById("wrapper").classList.toggle("active");
+        }, false);
+    </script>
+    <script type="text/javascript" charset="utf-8">
+        !function(g,s,q,r,d){
+            r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};
+            d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+            d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+                insertBefore(d,q)
+        }(window,document,'script','_gs');
+        _gs('GSN-764389-Z');
+    </script>
+</html>

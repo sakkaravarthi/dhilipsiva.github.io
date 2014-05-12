@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>dhilipsiva</title>
+		<description>dhilipsiva</description>		
+		<link>http://dhilipsiva.com</link>
+		<atom:link href="http://dhilipsiva.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>It isn&#39;t programming, its freedom!</title>
+				<description>&lt;p&gt;If you have read my post &amp;quot;&lt;a href=&quot;/2014/05/09/its-not-programming-its-parenting.html&quot;&gt;It isn&amp;#39;t programming, it&amp;#39;s parenting!&lt;/a&gt;&amp;quot;, you would have know by now that, I see myself as a parent and not just a programmer. In this post, I am trying to explain why programming means &lt;code&gt;freedom&lt;/code&gt; to me.&lt;/p&gt;
+
+&lt;p&gt;Perhaps one of the biggest lies taught by the society is the &lt;code&gt;freedom to choose&lt;/code&gt;. That is one big-fat-ass lie. But it is one of the most believable lies ever told. It took me almost 20 years to see through the lie. Truth is, most of human-kind do not have the &lt;code&gt;freedom to choose&lt;/code&gt;. It, merely, is an &lt;code&gt;Illusion of choice&lt;/code&gt;. I can talk about the &lt;code&gt;Illution of choice&lt;/code&gt; for hours. Maybe that is for another post.&lt;/p&gt;
+
+&lt;p&gt;I once read a quote that went like this: &lt;strong&gt;The only way to deal with an unfree world, is to be so absolutely free that your very existence is a rebellion.&lt;/strong&gt; It made a strong impression in my mind.&lt;/p&gt;
+
+&lt;p&gt;If you know about &lt;code&gt;Captain Jack Sparrow&lt;/code&gt;, you know what &lt;code&gt;Black Pearl&lt;/code&gt; means to him. Black Perl is the fastest ship in the ocean. So he can quickly get away from any fight. Or he can quickly catch any vessel and plunder it. Because Black Pearl is so fast, neither the HMS nor the Dutchmen can catch him. So it means Freedom to him. With Black Pearl, Jack can do stuff that pleases him and can easily get away from any chaos.&lt;/p&gt;
+
+&lt;p&gt;I see myself as Captain Jack Sparrow, programming is my Black Pearl, computer is my world and Internet is the vast Caribbean Ocean. The mediocre society and Academic system is the Dutchmen and HMS. I haven&amp;#39;t caused any damage to the HMS, yet! But I have a score to be settled. And some day, I will. I constantly upgrade my Black Pearl by leaning new stuff each and every day. And when the day comes, I shall refuse to let my enemy win.&lt;/p&gt;
+
+&lt;p&gt;With programming, I don&amp;#39;t have to cope up with this stupid society&amp;#39;s stupid rules. I literally don&amp;#39;t. I didn&amp;#39;t finish my graduation, I did not score as much marks as my friends did. As a matter of fact, I am always the last one in the class. The one with lowest score. Yet, I am the one who is most happy with what he is doing and I am most certainly the highest paid person compared to any of my college mates. And that is why programming means freedom to me. I am rebel and programming is my tool to fight this mediocre society. &lt;code&gt;They will see what I can do!&lt;/code&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 12 May 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/05/12/it-isn-t-programming-its-freedom.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/05/12/it-isn-t-programming-its-freedom.html</guid>
+			</item>
+		
+			<item>
+				<title>style.js</title>
+				<description>&lt;p&gt;A layman&amp;#39;s tool to style HTML Elements and share CSS values&lt;/p&gt;
+
+&lt;p&gt;Demo URL: &lt;a href=&quot;http://dhilipsiva.com/style.js/&quot;&gt;http://dhilipsiva.com/style.js/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub URL: &lt;a href=&quot;https://github.com/dhilipsiva/style.js&quot;&gt;https://github.com/dhilipsiva/style.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blog URL: &lt;a href=&quot;http://dhilipsiva.com/2014/05/11/style-js.html&quot;&gt;http://dhilipsiva.com/2014/05/11/style-js.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Motive behind style.js&lt;/h3&gt;
+
+&lt;p&gt;I often work with &lt;code&gt;Non-techie Entrepreneurs&lt;/code&gt;. While they are virtually always happy about the functionality, a lot of time is being wasted on UI iterations. You know, like change color, size, background, alignment, position, etc. I had to make changes, test, commit, push, deploy, client-check and repeat until client is happy. I got sick of it and built this tool. Now, I ll just integrate and configure this stuff. The client can make changes according to the configuration and download (without server interaction) the changes as &lt;code&gt;json&lt;/code&gt; file and mail it to me. No more back-and-forth circus.&lt;/p&gt;
+
+&lt;h3&gt;Get Started&lt;/h3&gt;
+
+&lt;p&gt;Avoid the back-and-forth circus with 3 Steps.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add and configure &lt;code&gt;style.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ask your non-techie client / boss to make changes using the configured GUI.&lt;/li&gt;
+&lt;li&gt;After they make change, ask them to download the JSON file and send it to you.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;Add and configure &lt;code&gt;style.js&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;Have a look at &lt;a href=&quot;https://github.com/dhilipsiva/style.js/blob/master/index.html&quot;&gt;index.html&lt;/a&gt; to see how to fix add and configure &lt;code&gt;style.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4&gt;Ask your non-techie client / boss to make changes using the configured GUI&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/make-changes.png&quot; alt=&quot;Make Changes&quot; title=&quot;Make Changes&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;After they make change, ask them to download the JSON file and send it to you.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/download.png&quot; alt=&quot;Download&quot; title=&quot;Download&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/dhilipsiva/style.js/master/images/json.png&quot; alt=&quot;JSON&quot; title=&quot;JSON&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Sample configuration&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Demo Page&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;toolbar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;#style-js-toolbar&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// `items`: Collection of tweakable sets&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// `name`: Human-Friendly name for this item&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Demo Element&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// `selectors`: Selectors that these tweaks apply to.&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// `selectors` any string that is accceptable by `querySelectorAll` javascript API&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;selectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;#style-js-demo&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// `properties`: collection of `css` properties&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// `name`: name of the css properties. All CSS properties are supported.&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;background-color&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// `initial`: initial value for this property(optional)&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;initial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;#0bee92&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// `type`: `type` attribute of the `&amp;lt;input&amp;gt;` tag&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// `type`: can be any value that is supported by the `&amp;lt;input&amp;gt;`s `type` attribute&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;color&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;font-size&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;initial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;12px&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Second line&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;selectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;#style-js-demo-2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;initial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;#FD4FFC&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;color&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;font-size&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;initial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;15px&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Browser Support&lt;/h3&gt;
+
+&lt;p&gt;Works well with chrome. I didn&amp;#39;t test it with any other browsers, but I am guessing it should work OK. Chrome is all that matters. Because if the Client you are building the product for is not ready to use latest Chrome for testing, maybe you should not build a product for him. This is something that is to be used only during the development. So I believe Chrome is good Enough. Pull requests are always welcomed.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 11 May 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/05/11/style-js.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/05/11/style-js.html</guid>
+			</item>
+		
+			<item>
+				<title>It isn&#39;t programming, it&#39;s parenting!</title>
+				<description>&lt;p&gt;Parenting is a divine art. In my opinion, there is no other art that is so sacred and pure than parenting. That is why I want to be the greatest dad in the world.&lt;/p&gt;
+
+&lt;p&gt;For me, coding is like raising a baby. Give birth to a tiny living thing, grow and improve her, teach her new things, teach her how to behave, caring for her so she does not crash, working so hard to make her a fine woman some day. Its not just coding, I see. It is parenting. I am the Mother, the Father and the Guardian. I give birth, I care and I protect. I watch her with joy as she grows. And she will always be a good girl. You know why? She will always listen to me and does exactly what I ask her to do.&lt;/p&gt;
+
+&lt;p&gt;But then agree, this is not as hard as rising an organic baby. This is as close as it can get to the divine art. I love both types of parenting. Hopefully, some day, I ll be the greatest dad in the world.&lt;/p&gt;
+
+&lt;p&gt;Programming is not just parenting, It is also &lt;code&gt;freedom&lt;/code&gt;. Read all about it here: &lt;a href=&quot;/2014/05/12/it-isn-t-programming-its-freedom.html&quot;&gt;It isn&amp;#39;t programming, its freedom!&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Fri, 09 May 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/05/09/its-not-programming-its-parenting.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/05/09/its-not-programming-its-parenting.html</guid>
+			</item>
+		
+			<item>
+				<title>Godel Escher Bach (GEB)</title>
+				<description>&lt;h3&gt;An Eternal Golden Braid&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach&quot;&gt;Godel Escher Bach&lt;/a&gt; is my most favorite book. And I recommend this to all the aspiring programmers out there.&lt;/p&gt;
+
+&lt;p&gt;Through this book, Douglas Hofstadter, explains how &lt;code&gt;self&lt;/code&gt; is evolved. This book contains a lot of &lt;code&gt;recursive&lt;/code&gt; and &lt;code&gt;self-referential&lt;/code&gt; patters. This book will throw your mind into a state of profound thinking. At some point, I thought my brain (or what is left of it) was going to melt as I read it. I am enjoying this book so much. I haven&amp;#39;t completed the book, yet. I will give an update when I am done. But until then, here is an interesting thing happened because I happened to meet a friend who read this book. I ll try explaining as much short as possible.&lt;/p&gt;
+
+&lt;p&gt;I was speaking with one of my friend the other day, and he happens to state his hypothesis that time and space might &lt;em&gt;not&lt;/em&gt; be continuous. This is just a fun conversation, which I found very interesting. For his justification, he used &lt;a href=&quot;http://en.wikipedia.org/wiki/Zeno&amp;#x27;s_paradoxes&quot;&gt;Zeno&amp;#39;s paradox&lt;/a&gt; as tool to validate it. Space has a smallest unit below which it cannot be further divided. By this way, Achilles can take huge number of finite steps to win the tortoise in the race. Thereby proposing that space may be discreet.&lt;/p&gt;
+
+&lt;p&gt;I was thinking about that. And I think it is not possible for space to be discrete. Here is my justification. Let us assume smallest unit of matter to be &lt;code&gt;mloop&lt;/code&gt; (Smaller than quarks or whatever is smaller than quarks). Consider point &lt;code&gt;A&lt;/code&gt; and point &lt;code&gt;B&lt;/code&gt;. Lets assume that smallest unit of space is &lt;code&gt;sloop&lt;/code&gt;. Now &lt;code&gt;A&lt;/code&gt; is away from &lt;code&gt;B&lt;/code&gt; by &lt;code&gt;1 sloop&lt;/code&gt;. &lt;code&gt;mloop&lt;/code&gt; cannot be smaller than &lt;code&gt;sloop&lt;/code&gt; as &lt;code&gt;sloop&lt;/code&gt; is smallest unit of space. Now, &lt;code&gt;mloop&lt;/code&gt; needs to moved from &lt;code&gt;A&lt;/code&gt; to &lt;code&gt;B&lt;/code&gt;. But there is no transition from &lt;code&gt;A&lt;/code&gt; to &lt;code&gt;B&lt;/code&gt; as nothing can exists between them. So logically speaking, &lt;code&gt;mloop&lt;/code&gt; has to disappear from &lt;code&gt;A&lt;/code&gt; and reappear in &lt;code&gt;B&lt;/code&gt; in order to move. To summarize, matter has to disappear from space and reappear elsewhere for it to move through space. And I think that this is ridiculous. So, I don&amp;#39;t think that space might be discreet.&lt;/p&gt;
+
+&lt;p&gt;Of course, I was thought from a very small age that Space-Time is a continuum, but I was just analysing the information to myself rather than blindly believing it without any questions. This is just one small stuff that GEB helped me think. This is why I recommend this stuff to all the programmers out there. It helps you think greatly.&lt;/p&gt;
+
+&lt;p&gt;I would love to hear your opinion in the comments below.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 27 Apr 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/04/27/godel-escher-bach.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/04/27/godel-escher-bach.html</guid>
+			</item>
+		
+			<item>
+				<title>Thedi Choru - தேடிச் சோறு</title>
+				<description>&lt;p&gt;This is one of my favorite poems of all time.&lt;/p&gt;
+
+&lt;h3&gt;As written by Bharathiyar&lt;/h3&gt;
+
+&lt;h4&gt;Stanza 1&lt;/h4&gt;
+
+&lt;p&gt;தேடிச் சோறுநிதந் தின்று - பல&lt;/p&gt;
+
+&lt;p&gt;சின்னஞ் சிறுகதைகள் பேசி - மனம்&lt;/p&gt;
+
+&lt;p&gt;வாடித் துன்பமிக உழன்று - பிறர்&lt;/p&gt;
+
+&lt;p&gt;வாடப் பலசெயல்கள் செய்து - நரை&lt;/p&gt;
+
+&lt;p&gt;கூடிக் கிழப்பருவ மெய்தி - கொடுங்&lt;/p&gt;
+
+&lt;p&gt;கூற்றுக் கிரையெனப்பின் மாயும் - பல&lt;/p&gt;
+
+&lt;p&gt;வேடிக்கை மனிதரைப் போலே - நான்&lt;/p&gt;
+
+&lt;p&gt;வீழ்வே னென்று நினைத் தாயோ?&lt;/p&gt;
+
+&lt;h4&gt;Stanza 2&lt;/h4&gt;
+
+&lt;p&gt;நின்னைச் சிலவரங்கள் கேட்பேன் - அவை&lt;/p&gt;
+
+&lt;p&gt;நேரே இன்றெனக்குத் தருவாய் - என்றன்&lt;/p&gt;
+
+&lt;p&gt;முன்னைத் தீயவினைப் பயன்கள் - இன்னும்&lt;/p&gt;
+
+&lt;p&gt;மூளா தழிந்திடுதல் வேண்டும் - இனி&lt;/p&gt;
+
+&lt;p&gt;என்னைப் புதியவுயி ராக்கி - எனக்&lt;/p&gt;
+
+&lt;p&gt;கேதுங் கவலையறச் செய்து - மதி&lt;/p&gt;
+
+&lt;p&gt;தன்னை மிகத்தெளிவு செய்து - என்றும்&lt;/p&gt;
+
+&lt;p&gt;சந்தோஷங் கொண்டிருக்கச் செய்வாய்...&lt;/p&gt;
+
+&lt;h3&gt;Translation&lt;/h3&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://theexasperatedman.blogspot.in/2012/12/thedi-choru-translation-and-happy-new.html&quot;&gt;The Exasperated Man&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Stanza 1&lt;/h4&gt;
+
+&lt;p&gt;Search for food and eat daily&lt;/p&gt;
+
+&lt;p&gt;Gossip around small stories&lt;/p&gt;
+
+&lt;p&gt;Feel bad about yourself and worry&lt;/p&gt;
+
+&lt;p&gt;Do things which hurt others&lt;/p&gt;
+
+&lt;p&gt;Get old and withering&lt;/p&gt;
+
+&lt;p&gt;Become a victim of terrible accusations&lt;/p&gt;
+
+&lt;p&gt;Did you think I would die at the end;&lt;/p&gt;
+
+&lt;p&gt;Like this pathetic human?&lt;/p&gt;
+
+&lt;h4&gt;Stanza 2&lt;/h4&gt;
+
+&lt;p&gt;I ask for talents&lt;/p&gt;
+
+&lt;p&gt;Give them to me today&lt;/p&gt;
+
+&lt;p&gt;Shall all my mistakes of the past&lt;/p&gt;
+
+&lt;p&gt;Die without a rebirth&lt;/p&gt;
+
+&lt;p&gt;I will be a new live being&lt;/p&gt;
+
+&lt;p&gt;Make me feel no worries&lt;/p&gt;
+
+&lt;p&gt;Make my mind brilliantly sharp&lt;/p&gt;
+
+&lt;p&gt;Make me feel bliss and content - forever.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 26 Apr 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/04/26/thedi-choru.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/04/26/thedi-choru.html</guid>
+			</item>
+		
+			<item>
+				<title>dotfiles</title>
+				<description>&lt;p&gt;GitHub repo: &lt;a href=&quot;https://github.com/dhilipsiva/dotfiles&quot;&gt;https://github.com/dhilipsiva/dotfiles&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;WARNING: Please take a back-up of your dotfiles if you have any. This file may overwrite some stuff in &lt;code&gt;~&lt;/code&gt; and &lt;code&gt;~/WIP&lt;/code&gt; and &lt;code&gt;~/WIP/dotfiles&lt;/code&gt; directories.&lt;/p&gt;
+
+&lt;h3&gt;Requirements&lt;/h3&gt;
+
+&lt;p&gt;Common Requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;*nix systems (Ofcourse, Mac OS too)&lt;/li&gt;
+&lt;li&gt;Curl&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Make sure your machine&amp;#39;s public key is added to your GitHub account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mac OS requirement:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcode command line tools&lt;/li&gt;
+&lt;li&gt;Homebrew (for scripts to run properly)&lt;/li&gt;
+&lt;li&gt;Homebrew Cask (Optional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Copy-Paste the following line in your terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl https://raw.githubusercontent.com/dhilipsiva/dotfiles/master/install.sh | sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;Just run the following command from your termianl&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;~/update.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if you prefer to use the latest update scripts, execute:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl https://raw.githubusercontent.com/dhilipsiva/dotfiles/master/update.sh | sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That is it.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 25 Apr 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/04/25/dotfiles.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/04/25/dotfiles.html</guid>
+			</item>
+		
+			<item>
+				<title>First post on dhilipsiva.com</title>
+				<description>&lt;p&gt;Greetings, Earthling!&lt;/p&gt;
+
+&lt;p&gt;This is my first post on &lt;a href=&quot;http://dhilipsiva.com&quot;&gt;dhilipsiva.com&lt;/a&gt;. Have been thinking to switch from &lt;code&gt;Heroku + Flask&lt;/code&gt; to &lt;code&gt;GitHub + Jekyll&lt;/code&gt; for about a year now. But I never really got any time. This month, I quit my job at &lt;a href=&quot;http://launchyard.com&quot;&gt;LaunchYard&lt;/a&gt;, so that I can launch my very own startup, thank you very much! Finally, I made the switch today.&lt;/p&gt;
+
+&lt;p&gt;It is been really great working at LauchYard. I learnt so many things from &lt;a href=&quot;https://www.facebook.com/aat1f&quot;&gt;Atif&lt;/a&gt; (CEO, LaunchYard). If you are reading this Atif, thank you!&lt;/p&gt;
+
+&lt;p&gt;I have decided to dive into &lt;code&gt;Big Data&lt;/code&gt; and &lt;code&gt;Machine Learning&lt;/code&gt;. Its been a passion for me to do BD and ML for almost a year now. I am very excited to do something on my own.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I wrote this post just to say &amp;quot;Hi&amp;quot;. So, I&amp;#39;ll sign-off for now. Will catch you soon.&lt;/p&gt;
+
+&lt;p&gt;dhilipsiva&lt;/p&gt;
+</description>
+				<pubDate>Thu, 24 Apr 2014 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2014/04/24/first-post-on-dhilipsiva-com.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2014/04/24/first-post-on-dhilipsiva-com.html</guid>
+			</item>
+		
+			<item>
+				<title>Python Libraries - Django, Twisted, Tornado, Flask, Cyclone and Pyramid</title>
+				<description>&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;https://www.djangoproject.com&quot;&gt;&lt;strong&gt;Django&lt;/strong&gt;&lt;/a&gt; is a high-level Python Web framework that encourages rapid development and clean, pragmatic design&amp;quot;&lt;/em&gt;. If you are building something that is similar to a e-commerce site, then you should probably go with &lt;code&gt;Django&lt;/code&gt;. It will get your work done quick. You don&amp;#39;t have to worry about too many technology choices. It provides everything thing you need from template engine to &lt;code&gt;ORM&lt;/code&gt;. It will be slightly opinionated about the way you structure your app, which is good If you ask me. And it has the strongest community of all the other libraries, which means easy help is available.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;&lt;strong&gt;Flask&lt;/strong&gt;&lt;/a&gt; is a microframework for Python based on Werkzeug, Jinja 2 and good intentions&amp;quot;&lt;/em&gt;. Beware - &amp;quot;microframework&amp;quot; may be misleading. This does not mean that &lt;code&gt;Flask&lt;/code&gt; is a half-baked library. This mean the core of &lt;code&gt;Flask&lt;/code&gt; is very, very simple. Unlike &lt;code&gt;Django&lt;/code&gt;, It will not make any Technology decisions for you. You are free to choose any template engine or &lt;code&gt;ORM&lt;/code&gt; that pleases you. Even though it comes with &lt;code&gt;Jinja&lt;/code&gt; template engine by default, you are always free to choose our own. As far as I know &lt;code&gt;Flask&lt;/code&gt; comes in handy for writing APIs endpoints(&lt;code&gt;RESTful rervices&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;https://twistedmatrix.com/trac/&quot;&gt;&lt;strong&gt;Twisted&lt;/strong&gt;&lt;/a&gt; is an event-driven networking engine written in python&amp;quot;&lt;/em&gt;. This is a high-performance engine. The main reason for its speed is something called as deferred. &lt;code&gt;Twisted&lt;/code&gt; is built on top of &lt;code&gt;deferred&lt;/code&gt;. For those of you who don&amp;#39;t know about deferred, it is the mechanism through with asynchronous architecture is achieved. &lt;code&gt;Twisted&lt;/code&gt; is very fast. But is not suitable for writing conventional WebApps. If you want to do something low-level networking stuff, &lt;code&gt;Twisted&lt;/code&gt; is your friend.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;http://www.tornadoweb.org/en/stable/&quot;&gt;&lt;strong&gt;Tornado&lt;/strong&gt;&lt;/a&gt; is a Python web framework and asynchronous networking library, originally developed at &lt;code&gt;FriendFeed&lt;/code&gt;. By using non-blocking network I/O, &lt;code&gt;Tornado&lt;/code&gt; can scale to tens of thousands of open connections, making it ideal for long polling, &lt;code&gt;WebSockets&lt;/code&gt;, and other applications that require a long-lived connection to each user&amp;quot;&lt;/em&gt;. &lt;code&gt;Tornado&lt;/code&gt; stands some where between &lt;code&gt;Django&lt;/code&gt; and &lt;code&gt;Flask&lt;/code&gt;. If you want to write something with &lt;code&gt;Django&lt;/code&gt; or &lt;code&gt;Flask&lt;/code&gt;, but if you need a better performance, you can opt for &lt;code&gt;Tornado&lt;/code&gt;. It can handle C10k problem very well if it is architected right.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;http://cyclone.io&quot;&gt;&lt;strong&gt;Cyclone&lt;/strong&gt;&lt;/a&gt; is a web server framework for Python that implements the &lt;code&gt;Tornado&lt;/code&gt; API as a Twisted protocol&amp;quot;&lt;/em&gt;. Now, what if you want something with &lt;code&gt;Twisted&lt;/code&gt;&amp;#39;s performance and easy to write conventional webapps? Say hello to &lt;code&gt;Cyclone&lt;/code&gt;. I would prefer &lt;code&gt;Cyclone&lt;/code&gt; over &lt;code&gt;Tornado&lt;/code&gt;. It has an API that is very similar to &lt;code&gt;Tornado&lt;/code&gt;. As a matter of fact, this is a fork of &lt;code&gt;Tornado&lt;/code&gt;. But the problem is it has relatively small community. Alexandre Fiori is the only main commiter to the repo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;quot;&lt;a href=&quot;http://docs.pylonsproject.org/en/latest/docs/pyramid.html&quot;&gt;&lt;strong&gt;Pyramid&lt;/strong&gt;&lt;/a&gt; is a general, open source, Python web application development framework. Its primary goal is to make it easier for a Python developer to create web applications&amp;quot;&lt;/em&gt;. I haven&amp;#39;t really used &lt;code&gt;Pyramid&lt;/code&gt;, but I went through the documentation. From what I understand, &lt;code&gt;Pyramid&lt;/code&gt; is very similar to &lt;code&gt;Flask&lt;/code&gt; and I think you can use &lt;code&gt;Pyramid&lt;/code&gt; wherever &lt;code&gt;Flask&lt;/code&gt; seems appropriate and vice-versa.&lt;/p&gt;
+
+&lt;p&gt;Want me to review any other library? Please leave a comment below.&lt;/p&gt;
+
+&lt;p&gt;Comments / Suggestions / Edits welcomed.&lt;/p&gt;
+
+&lt;p&gt;I answered a question on StackOverflow &lt;a href=&quot;http://stackoverflow.com/questions/13941903/when-to-use-tornado-when-to-use-twisted-cyclone-gevent-other/16630916#16630916&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 19 May 2013 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2013/05/19/python-libraries-django-twisted-tornado-flask-cyclone-and-pyramid.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2013/05/19/python-libraries-django-twisted-tornado-flask-cyclone-and-pyramid.html</guid>
+			</item>
+		
+			<item>
+				<title>Enable NTFS write support on Mac OS X</title>
+				<description>&lt;p&gt;That is really annoying, isn&amp;#39;t it? I mean, you plug-in your Disk into your mac, and all you know is you cannot write anything on it. Anyways, I have found an utility to enable mac to write on your NTFS Hard disk. It&amp;#39;s called ntfs-3g. Here are the steps to install it:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh language-sh&quot; data-lang=&quot;sh&quot;&gt;brew info fuse4x-kext
+sudo /bin/cp -rfX /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions/fuse4x.kext /Library/Extensions
+sudo chmod +s /Library/Extensions/fuse4x.kext/Support/load_fuse4x
+mount -t fuse4x
+sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.orig
+sudo rm /sbin/mount_ntfs
+brew install fuse4x sshfs
+sudo kextunload /System/Library/Extensions/fuse4x.kext/
+sudo kextload /System/Library/Extensions/fuse4x.kext/
+brew install ntfs-3g
+sudo ln -s /usr/local/Cellar/ntfs-3g/2012.1.15/sbin/mount_ntfs /sbin/mount_ntfs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Yes, I know I did not give much of explanation here. Thats because I doubt if this is going to useful for some one. If you are reading this and need some explanation, let me know. I ll update this post as needed. But for now. This is for my future reference.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 17 Feb 2013 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2013/02/17/enable-ntfs-write-support-on-mac-os-x.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2013/02/17/enable-ntfs-write-support-on-mac-os-x.html</guid>
+			</item>
+		
+			<item>
+				<title>Install PostgreSQL on OS X using Homebrew</title>
+				<description>&lt;p&gt;&lt;strong&gt;Strong advice&lt;/strong&gt;: DO NOT use any &amp;quot;installers&amp;quot; for you development purpose. And by installers, I mean GUI based wizards / drag and drop ones. always rely on command-line. If you are not using &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; yet, Start using it immediately. For those who have never used it, is it like an &amp;quot;apt-get&amp;quot; for mac. Technically speaking, it is a package-manager. There is an other alternative to Homebrew called &lt;a href=&quot;http://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt;. But I have never user MacPorts. I am happy with Homebrew. So I dont know much about MacPorts.&lt;/p&gt;
+
+&lt;p&gt;So before installing through Homebrew make sure that you uninstalled the old version completely and restarted (Just to make sure there are no startup items related to postgres) your mac. Open &amp;quot;Activity Monitor&amp;quot; and ensure there are no &amp;quot;postgres&amp;quot; processes. And follow commands. If required run command &amp;quot;brew doctor&amp;quot; just to make sure that everything is OK with Homebrew.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh language-sh&quot; data-lang=&quot;sh&quot;&gt;brew update
+brew install postgresql
+initdb /usr/local/var/postgres
+cp /usr/local/Cellar/postgresql/&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;your-pg-version&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
+launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note: When you use Homebrew to install Postgresql, It does not create a &amp;quot;postgres&amp;quot; user for you. If you really need it, you can create one yourself. But normally the user that you are currently logged in as will  have super-user privileges. It comes in handy during development.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 09 Feb 2013 00:00:00 +0530</pubDate>
+				<link>http://dhilipsiva.com/2013/02/09/install-postgresql-on-os-x-using-homebrew.html</link>
+				<guid isPermaLink="true">http://dhilipsiva.com/2013/02/09/install-postgresql-on-os-x-using-homebrew.html</guid>
+			</item>
+		
+	</channel>
+</rss>
